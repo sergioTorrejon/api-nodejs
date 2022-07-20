@@ -1,5 +1,9 @@
-import { Request, Response } from "express";
-import { User } from "../entity/User";
+import {
+  Request,
+  Response,
+} from 'express';
+
+import { User } from './entity/user';
 
 interface UserBody {
   firstname: string;

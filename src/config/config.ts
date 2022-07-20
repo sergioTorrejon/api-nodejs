@@ -1,6 +1,6 @@
 import * as dotenv from 'dotenv';
 
-import { ENV_CONFIG } from './config/env';
+import { ENV_CONFIG } from './env';
 
 dotenv.config();
 

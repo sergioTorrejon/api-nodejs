@@ -1,2 +1,177 @@
 {"level":"info","message":"Servidor arriba","timestamp":"2022-07-19T07:25:36.740Z"}
 2022-07-19T07:31:40.339Z [undefined] info: Servidor arriba
+2022-07-20T03:36:50.114Z [undefined] info: Servidor arriba
+2022-07-20T04:56:52.729Z [undefined] info: Servidor arriba
+2022-07-20T05:13:54.095Z [undefined] info: Servidor arriba
+2022-07-20T05:14:17.694Z [undefined] info: Servidor arriba
+2022-07-20T05:15:42.210Z [undefined] info: Servidor arriba
+2022-07-20T05:16:19.179Z [undefined] info: Servidor arriba
+2022-07-20T05:17:28.411Z [undefined] info: Servidor arriba
+2022-07-20T05:21:40.062Z [undefined] info: Servidor arriba
+2022-07-20T05:22:39.636Z [undefined] info: Servidor arriba
+2022-07-20T05:26:30.282Z [undefined] info: Servidor arriba
+2022-07-20T05:26:37.334Z [undefined] error: uncaughtException: invalid token
+JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/jsonwebtoken/verify.js:75:17)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:18:23
+    at Generator.next (<anonymous>)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:4:12)
+    at verifyToken (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:19:12)
+    at Layer.handle [as handle_request] (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/route.js:114:3)
+2022-07-20T05:38:50.158Z [undefined] info: Servidor arriba
+2022-07-20T05:38:54.705Z [undefined] error: uncaughtException: invalid token
+JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/jsonwebtoken/verify.js:75:17)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:18:23
+    at Generator.next (<anonymous>)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:4:12)
+    at verifyToken (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:19:12)
+    at Layer.handle [as handle_request] (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/route.js:114:3)
+2022-07-20T05:40:23.776Z [undefined] info: Servidor arriba
+2022-07-20T05:40:29.019Z [undefined] error: uncaughtException: invalid token
+JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/jsonwebtoken/verify.js:75:17)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:18:23
+    at Generator.next (<anonymous>)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:4:12)
+    at verifyToken (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:19:12)
+    at Layer.handle [as handle_request] (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/route.js:114:3)
+2022-07-20T05:41:37.049Z [undefined] info: Servidor arriba
+2022-07-20T05:41:38.906Z [undefined] error: uncaughtException: invalid token
+JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/jsonwebtoken/verify.js:75:17)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:18:23
+    at Generator.next (<anonymous>)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:4:12)
+    at verifyToken (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:19:12)
+    at Layer.handle [as handle_request] (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/route.js:114:3)
+2022-07-20T05:42:43.111Z [undefined] info: Servidor arriba
+2022-07-20T05:42:54.078Z [undefined] error: uncaughtException: invalid token
+JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/jsonwebtoken/verify.js:75:17)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:18:23
+    at Generator.next (<anonymous>)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:4:12)
+    at verifyToken (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:19:12)
+    at Layer.handle [as handle_request] (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/route.js:114:3)
+2022-07-20T05:47:40.703Z [undefined] info: Servidor arriba
+2022-07-20T05:47:41.754Z [undefined] error: uncaughtException: invalid token
+JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/jsonwebtoken/verify.js:75:17)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:18:23
+    at Generator.next (<anonymous>)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:4:12)
+    at verifyToken (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:19:12)
+    at Layer.handle [as handle_request] (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/route.js:114:3)
+2022-07-20T05:49:35.047Z [undefined] info: Servidor arriba
+2022-07-20T05:49:40.589Z [undefined] error: uncaughtException: invalid token
+JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/jsonwebtoken/verify.js:75:17)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:18:23
+    at Generator.next (<anonymous>)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:4:12)
+    at verifyToken (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:19:12)
+    at Layer.handle [as handle_request] (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/route.js:114:3)
+2022-07-20T05:51:34.208Z [undefined] info: Servidor arriba
+2022-07-20T05:52:39.153Z [undefined] info: Servidor arriba
+2022-07-20T05:52:51.685Z [undefined] error: uncaughtException: invalid token
+JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/jsonwebtoken/verify.js:75:17)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:18:23
+    at Generator.next (<anonymous>)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:4:12)
+    at verifyToken (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:19:12)
+    at Layer.handle [as handle_request] (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/route.js:114:3)
+2022-07-20T05:54:18.541Z [undefined] info: Servidor arriba
+2022-07-20T05:54:24.505Z [undefined] error: uncaughtException: jwt expired
+TokenExpiredError: jwt expired
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/jsonwebtoken/verify.js:152:21
+    at getSecret (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/jsonwebtoken/verify.js:94:10)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:18:23
+    at Generator.next (<anonymous>)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:4:12)
+    at verifyToken (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:19:12)
+    at Layer.handle [as handle_request] (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/layer.js:95:5)
+2022-07-20T05:59:19.993Z [undefined] info: Servidor arriba
+2022-07-20T06:04:02.165Z [undefined] error: uncaughtException: jwt not active
+NotBeforeError: jwt not active
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/jsonwebtoken/verify.js:143:21
+    at getSecret (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/jsonwebtoken/verify.js:94:10)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:18:23
+    at Generator.next (<anonymous>)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:4:12)
+    at verifyToken (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:19:12)
+    at Layer.handle [as handle_request] (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/layer.js:95:5)
+2022-07-20T06:15:52.393Z [undefined] info: Servidor arriba
+2022-07-20T06:15:55.558Z [undefined] error: uncaughtException: jwt malformed
+JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/jsonwebtoken/verify.js:63:17)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:17:23
+    at Generator.next (<anonymous>)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:4:12)
+    at verifyToken (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/core/auth/jwt.ts:19:12)
+    at Layer.handle [as handle_request] (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/node_modules/express/lib/router/route.js:114:3)
+2022-07-20T06:17:31.025Z [undefined] info: Servidor arriba
+2022-07-20T06:17:34.160Z [undefined] info: Servidor arriba
+2022-07-20T06:22:21.937Z [undefined] info: Servidor arriba
+2022-07-20T06:29:25.337Z [undefined] info: Servidor arriba
+2022-07-20T07:21:32.993Z [undefined] info: Servidor arriba
+2022-07-20T07:23:20.515Z [undefined] info: Servidor arriba
+2022-07-20T07:23:24.698Z [undefined] info: Servidor arriba
+2022-07-20T07:23:49.241Z [undefined] info: Servidor arriba
+2022-07-20T07:34:26.199Z [undefined] info: Servidor arriba
+2022-07-20T07:34:32.197Z [undefined] info: Servidor arriba
+2022-07-20T07:36:23.474Z [undefined] info: Servidor arriba
+2022-07-20T07:42:17.293Z [undefined] info: Servidor arriba
+2022-07-20T07:43:22.907Z [undefined] info: Servidor arriba
+2022-07-20T07:44:09.981Z [undefined] info: Servidor arriba
+2022-07-20T07:53:05.880Z [undefined] info: Servidor arriba
+2022-07-20T07:53:13.931Z [undefined] info: Servidor arriba
+2022-07-20T07:55:11.536Z [undefined] info: Servidor arriba
+2022-07-20T07:56:44.907Z [undefined] info: Servidor arriba
+2022-07-20T07:57:24.428Z [undefined] info: Servidor arriba
+2022-07-20T07:58:22.400Z [undefined] info: Servidor arriba
+2022-07-20T07:58:28.965Z [undefined] info: Servidor arriba
+2022-07-20T07:59:26.807Z [undefined] info: Servidor arriba

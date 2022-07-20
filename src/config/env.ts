@@ -14,4 +14,6 @@ export const ENV_CONFIG = {
     DATABASE_PASSWORD : process.env.DATABASE_PASSWORD || 'postgres',
     DATABASE_NAME : process.env.DATABASE_NAME || 'db_sys',
 
+    JWT_SECRET: process.env.JWT_SECRET || 'clavesecreta',
+
 }

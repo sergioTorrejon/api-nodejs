@@ -1,7 +1,7 @@
 import app from './app';
-import { APP_CONFIG as config } from './config';
+import { APP_CONFIG as config } from './config/config';
+import { AppDataSource } from './config/db';
 import { logger } from './core/logger/logger';
-import { AppDataSource } from './db';
 
 async function main() {
   try {
