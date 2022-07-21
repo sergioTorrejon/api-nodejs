@@ -4,6 +4,10 @@ import {
 } from 'express';
 
 import { User } from './entity/user';
+import {
+  _getUser,
+  _getUsers,
+} from './user.service';
 
 interface UserBody {
   firstname: string;
@@ -12,7 +16,7 @@ interface UserBody {
 
 export const getUsers = async (req: Request, res: Response) => {
   try {
-    const users = await User.find();
+    const users = await _getUsers();
     return res.json(users);
   } catch (error) {
     if (error instanceof Error) {
@@ -22,9 +26,20 @@ export const getUsers = async (req: Request, res: Response) => {
 };
 
 export const getUser = async (req: Request, res: Response) => {
+
+  //let userStructureClass = await validate(plainToClass(UserStructure , req.params));
+
+  //console.log(userStructureClass,'iddddd')
+
+ /*  let userStructureClass = plainToClass(UserStructure , req.params);
+
+  console.log(userStructureClass,'iddddd') */
+
   try {
     const { id } = req.params;
-    const user = await User.findOneBy({ id: parseInt(id) });
+
+    const user = await _getUser(id);
+    //const user = await User.findOneBy({ id: parseInt(id) });
 
     if (!user) return res.status(404).json({ message: "User not found" });
 

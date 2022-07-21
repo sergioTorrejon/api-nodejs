@@ -1,15 +1,17 @@
+import { IsNumber } from 'class-validator';
 import {
-  Entity,
-  Column,
-  PrimaryGeneratedColumn,
   BaseEntity,
+  Column,
   CreateDateColumn,
+  Entity,
+  PrimaryGeneratedColumn,
   UpdateDateColumn,
-} from "typeorm";
+} from 'typeorm';
 
 @Entity()
 export class User extends BaseEntity {
-  @PrimaryGeneratedColumn()
+  @PrimaryGeneratedColumn({type:'int4'})
+  @IsNumber()
   id: number;
 
   @Column()

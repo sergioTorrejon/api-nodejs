@@ -1,6 +1,6 @@
 import * as dotenv from 'dotenv';
 
-import { joinPathFolder } from '../helpers/path/join,path';
+import { joinPathFolder } from '../../utils/helpers/path/join,path';
 
 dotenv.config();
 

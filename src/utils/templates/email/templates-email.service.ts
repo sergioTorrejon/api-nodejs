@@ -25,8 +25,8 @@ export class TemplateEmailService {
         </body>
       </html>
     `;
-  }
-
+  };
+  
   static armarPlantillaBloqueoCuenta(url:string) {
     return `
       <!DOCTYPE html>
@@ -49,5 +49,5 @@ export class TemplateEmailService {
         </body>
       </html>
     `;
-  }
+  };
 }

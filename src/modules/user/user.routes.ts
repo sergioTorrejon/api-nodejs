@@ -7,12 +7,13 @@ import {
   getUsers,
   updateUser,
 } from './user.controller';
+import { val } from './validators/val';
 
 const router = Router();
 
 router.get("/", getUsers);
 
-router.get("/:id", getUser);
+router.get("/:id", val, getUser);
 
 router.post("/", createUser);
 
