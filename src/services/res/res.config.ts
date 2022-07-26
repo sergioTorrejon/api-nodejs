@@ -1,4 +1,4 @@
-import { ResDto } from '../../common/dtos';
+import { ResDto } from '../../common/models/dtos';
 import {
   FALSE,
   OK,

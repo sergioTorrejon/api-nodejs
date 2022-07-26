@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken';
 
-import { ENV_CONFIG } from '../../config/env';
+import { SERVER_CONFIG } from '../../../config/settings/server/server.config';
 
 export const verifyToken = async (req, res, next) => {
   // Get the token from the headers
@@ -12,7 +12,7 @@ export const verifyToken = async (req, res, next) => {
       .send({ auth: false, message: "No Token aws Provided" });
   }
   // decode the token
-  const decoded = jwt.verify(token, ENV_CONFIG.JWT_SECRET);
+  const decoded = jwt.verify(token, SERVER_CONFIG.jwtSecret);
   // save the token on request object to using on routes
   req.userId = decoded['uid'];
 

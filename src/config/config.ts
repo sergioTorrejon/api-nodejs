@@ -1,10 +1,9 @@
-import * as dotenv from 'dotenv';
+import { APP_CONFIG } from './settings/app/app.config';
+import { BUILD_CONFIG } from './settings/build/build.config';
+import { SERVER_CONFIG } from './settings/server/server.config';
 
-import { ENV_CONFIG } from './env';
-
-dotenv.config();
-
-export const APP_CONFIG = {
-    port:ENV_CONFIG.SERVER_PORT,
-
+export const config = {
+    server:SERVER_CONFIG,
+    app: APP_CONFIG,
+    debug:BUILD_CONFIG,
 }

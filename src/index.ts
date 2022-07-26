@@ -1,13 +1,13 @@
 import app from './app';
-import { APP_CONFIG as config } from './config/config';
-import { AppDataSource } from './config/db';
-import { logger } from './core/logger/logger';
+import { config } from './config/config';
+import { DB_SYS_CONFIG } from './config/db/postgres/db-sys.config';
+import { logger } from './core/middlewares/logs/logger';
 
 async function main() {
   try {
-    await AppDataSource.initialize();
-    app.listen(config.port);
-    console.log("Server on port", config.port);
+    await DB_SYS_CONFIG.initialize()
+    app.listen(config.server.port);
+    console.log("Server on port", config.server.port);
     logger.info('Servidor arriba');
   } catch (error) {
     if (error instanceof Error) {
