@@ -352,3 +352,111 @@ JsonWebTokenError: jwt malformed
 2022-07-26T07:14:24.224Z [undefined] info: Servidor arriba
 2022-07-26T07:30:08.743Z [undefined] info: Servidor arriba
 2022-07-26T07:34:15.673Z [undefined] info: Servidor arriba
+2022-07-27T04:06:15.378Z [undefined] info: Servidor arriba
+2022-07-27T04:23:50.159Z [undefined] info: Servidor arriba
+2022-07-27T04:31:41.241Z [undefined] info: Servidor arriba
+2022-07-27T04:31:53.651Z [undefined] info: Servidor arriba
+2022-07-27T04:32:52.502Z [undefined] info: Servidor arriba
+2022-07-27T04:33:04.878Z [undefined] info: Servidor arriba
+2022-07-27T04:36:19.239Z [undefined] info: Servidor arriba
+2022-07-27T04:40:00.536Z [undefined] info: Servidor arriba
+2022-07-27T04:46:19.337Z [undefined] info: Servidor arriba
+2022-07-27T05:16:30.059Z [undefined] info: Servidor arriba
+2022-07-27T05:19:54.331Z [undefined] info: Servidor arriba
+2022-07-27T05:20:43.734Z [undefined] info: Servidor arriba
+2022-07-27T05:21:31.275Z [undefined] info: Servidor arriba
+2022-07-27T05:33:50.319Z [undefined] info: Servidor arriba
+2022-07-27T05:44:53.621Z [undefined] info: Servidor arriba
+2022-07-27T05:46:10.992Z [undefined] info: Servidor arriba
+2022-07-27T05:47:31.593Z [undefined] info: Servidor arriba
+2022-07-27T05:48:55.611Z [undefined] info: Servidor arriba
+2022-07-27T05:51:08.692Z [undefined] info: Servidor arriba
+2022-07-27T05:51:56.647Z [undefined] info: Servidor arriba
+2022-07-27T05:56:42.210Z [undefined] info: Servidor arriba
+2022-07-27T06:03:23.833Z [undefined] info: Servidor arriba
+2022-07-27T06:23:02.494Z [undefined] info: Servidor arriba
+2022-07-27T06:26:29.384Z [undefined] info: Servidor arriba
+2022-07-27T06:33:00.063Z [undefined] info: Servidor arriba
+2022-07-27T06:33:04.542Z [undefined] error: uncaughtException: null value in column "firstname" of relation "setting" violates not-null constraint
+QueryFailedError: null value in column "firstname" of relation "setting" violates not-null constraint
+    at PostgresQueryRunner.query (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/driver/postgres/PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at InsertQueryBuilder.execute (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/query-builder/InsertQueryBuilder.ts:161:33)
+    at SubjectExecutor.executeInsertOperations (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/persistence/SubjectExecutor.ts:460:25)
+    at SubjectExecutor.execute (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/persistence/SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/persistence/EntityPersistExecutor.ts:194:21)
+2022-07-27T06:36:03.827Z [undefined] info: Servidor arriba
+2022-07-27T06:36:08.212Z [undefined] error: uncaughtException: null value in column "firstname" of relation "setting" violates not-null constraint
+QueryFailedError: null value in column "firstname" of relation "setting" violates not-null constraint
+    at PostgresQueryRunner.query (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/driver/postgres/PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at InsertQueryBuilder.execute (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/query-builder/InsertQueryBuilder.ts:161:33)
+    at SubjectExecutor.executeInsertOperations (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/persistence/SubjectExecutor.ts:460:25)
+    at SubjectExecutor.execute (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/persistence/SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/persistence/EntityPersistExecutor.ts:194:21)
+2022-07-27T06:37:24.839Z [undefined] info: Servidor arriba
+2022-07-27T06:37:27.195Z [undefined] error: uncaughtException: Found non-callable @@iterator
+TypeError: Found non-callable @@iterator
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/modules/admin/settings/settings.service.ts:19:14
+    at Generator.next (<anonymous>)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/modules/admin/settings/settings.service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/modules/admin/settings/settings.service.ts:4:12)
+    at _postOne (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/modules/admin/settings/settings.service.ts:15:39)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/modules/admin/settings/settings.controller.ts:42:26
+    at Generator.next (<anonymous>)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/modules/admin/settings/settings.controller.ts:8:71
+    at new Promise (<anonymous>)
+2022-07-27T06:39:25.181Z [undefined] info: Servidor arriba
+2022-07-27T06:45:53.308Z [undefined] info: Servidor arriba
+2022-07-27T06:48:56.999Z [undefined] info: Servidor arriba
+2022-07-27T06:53:41.408Z [undefined] info: Servidor arriba
+2022-07-27T07:02:43.618Z [undefined] info: Servidor arriba
+2022-07-27T07:24:42.500Z [undefined] info: Servidor arriba
+2022-07-27T07:28:35.022Z [undefined] info: Servidor arriba
+2022-07-27T07:28:55.132Z [undefined] error: uncaughtException: No metadata for "string" was found.
+EntityMetadataNotFoundError: No metadata for "string" was found.
+    at DataSource.getMetadata (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/data-source/DataSource.ts:423:30)
+    at Repository.get metadata [as metadata] (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/repository/Repository.ts:52:40)
+    at Repository.save (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/repository/Repository.ts:205:18)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/modules/admin/settings/settings.service.ts:19:71
+    at Generator.next (<anonymous>)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/modules/admin/settings/settings.service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/modules/admin/settings/settings.service.ts:4:12)
+    at _postOne (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/modules/admin/settings/settings.service.ts:17:39)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/modules/admin/settings/settings.controller.ts:42:26
+2022-07-27T07:40:45.823Z [undefined] info: Servidor arriba
+2022-07-27T07:41:00.767Z [undefined] info: Servidor arriba
+2022-07-27T07:41:01.913Z [undefined] error: uncaughtException: No metadata for "string" was found.
+EntityMetadataNotFoundError: No metadata for "string" was found.
+    at DataSource.getMetadata (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/data-source/DataSource.ts:423:30)
+    at Repository.get metadata [as metadata] (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/repository/Repository.ts:52:40)
+    at Repository.save (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/repository/Repository.ts:205:18)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/modules/admin/settings/settings.service.ts:32:72
+    at Generator.next (<anonymous>)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/modules/admin/settings/settings.service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/modules/admin/settings/settings.service.ts:4:12)
+    at _postOne (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/modules/admin/settings/settings.service.ts:30:39)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/modules/admin/settings/settings.controller.ts:42:26
+2022-07-27T07:41:31.033Z [undefined] info: Servidor arriba
+2022-07-27T07:44:34.163Z [undefined] info: Servidor arriba
+2022-07-27T07:45:09.293Z [undefined] info: Servidor arriba
+2022-07-27T07:50:32.077Z [undefined] info: Servidor arriba
+2022-07-27T07:53:38.721Z [undefined] info: Servidor arriba
+2022-07-27T07:53:59.177Z [undefined] info: Servidor arriba
+2022-07-27T07:55:01.330Z [undefined] info: Servidor arriba
+2022-07-27T07:55:48.318Z [undefined] error: uncaughtException: No metadata for "Setting" was found.
+EntityMetadataNotFoundError: No metadata for "Setting" was found.
+    at DataSource.getMetadata (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/data-source/DataSource.ts:423:30)
+    at Repository.get metadata [as metadata] (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/repository/Repository.ts:52:40)
+    at Repository.create (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/repository/Repository.ts:129:18)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/modules/admin/settings/settings.service.ts:21:53
+    at Generator.next (<anonymous>)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/modules/admin/settings/settings.service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/modules/admin/settings/settings.service.ts:4:12)
+    at _postOne (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/modules/admin/settings/settings.service.ts:19:39)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/modules/admin/settings/settings.controller.ts:42:26
+2022-07-27T07:58:16.130Z [undefined] info: Servidor arriba

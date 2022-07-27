@@ -1,9 +1,11 @@
 import { Router } from 'express';
 
-import userRoutes from './modules/security/user/user.routes';
+import adminRoutes from './modules/admin/admin.routes';
+import userRoutes from './modules/system/user/user.routes';
 
 const router = Router();
 
+router.use("/admin", adminRoutes);
 router.use("/users", userRoutes);
 
 

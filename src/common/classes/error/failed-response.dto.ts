@@ -1,4 +1,4 @@
-import { CustomValidationError } from '../../../interfaces';
+import { CustomValidationError } from '../../interfaces';
 
 export class FailedResponseDTO {
   errorMessage: string;

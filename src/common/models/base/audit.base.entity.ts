@@ -1,5 +1,4 @@
 import {
-  BaseEntity,
   Column,
   CreateDateColumn,
   Entity,
@@ -7,12 +6,8 @@ import {
 } from 'typeorm';
 
 @Entity()
-export class Base extends BaseEntity {
-  
-  @Column({ default: true })
-  active: boolean;
-  
-  @Column({name:'user_create',default:'admin'})
+export class AuditBase {
+  @Column({name:'user_create',default:'system'})
   userCreate: string;
 
   @CreateDateColumn({name:'date_create'})
