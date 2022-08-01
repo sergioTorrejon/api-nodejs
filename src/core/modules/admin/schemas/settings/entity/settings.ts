@@ -6,9 +6,11 @@ import {
   PrimaryGeneratedColumn,
 } from 'typeorm';
 
-import { AuditBase } from '../../../../common/models/base/audit.base.entity';
+import {
+  AuditBase,
+} from '../../../../../../shared/models/base/audit.base.entity';
 
-@Entity()
+@Entity("setting", {"schema": "config"})
 export class Setting extends BaseEntity {
   @PrimaryGeneratedColumn({type:'int4'})
   @IsNumber()

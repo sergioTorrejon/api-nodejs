@@ -4,8 +4,10 @@ import {
   DataSource,
 } from 'typeorm';
 
-import { Config } from '../../../modules/admin/config/entity/config.entity';
-import { User } from '../../../modules/system/user/entity/user';
+import {
+  Config,
+} from '../../../core/modules/admin/schemas/config/entity/config.entity';
+import { User } from '../../../core/modules/admin/schemas/user/entity/user';
 
 dotenv.config();
 

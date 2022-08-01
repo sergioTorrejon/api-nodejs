@@ -6,7 +6,9 @@ import {
   PrimaryGeneratedColumn,
 } from 'typeorm';
 
-import { AuditBase } from '../../../../common/models/base/audit.base.entity';
+import {
+  AuditBase,
+} from '../../../../../../shared/models/base/audit.base.entity';
 
 @Entity()
 export class Config extends BaseEntity {

@@ -1,7 +1,7 @@
 import { Router } from 'express';
 
-import configRoutes from './config/config.routes';
-import settingRoutes from './settings/settings.routes';
+import configRoutes from './schemas/config/config.routes';
+import settingRoutes from './schemas/settings/settings.routes';
 
 const router = Router();
 

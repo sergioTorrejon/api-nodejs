@@ -1,7 +1,7 @@
 //import * as md5 from 'md5';
 import * as fs from 'fs';
 
-import { joinPathFolder } from '../../../tools/helpers/path/join,path';
+import { joinPathFolder } from '../../../helpers/path/join,path';
 //import { AppLogger } from 'src/core/logger/logger.service';
 import {
   FileCreate,
