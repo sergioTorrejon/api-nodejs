@@ -1,8 +1,8 @@
-import { ResDto } from '../../shared/classes';
 import {
   FALSE,
   OK,
-} from '../../shared/constants/keys/keys';
+} from '../../config/constants/keys/keys';
+import { ResDto } from '../../shared/classes';
 
 //RESPONSE SUCCESS
 export async function responseSuccess( _message:string, _data:any=[] ): Promise<ResDto> {

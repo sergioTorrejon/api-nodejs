@@ -1,15 +1,10 @@
 import app from './app';
 import { config } from './config/config';
-import { DB_ADMIN } from './config/db/postgres/db-admin.config';
-import { DB_CORE_CONFIG } from './config/db/postgres/db-core.config';
-import { DB_SYS_CONFIG } from './config/db/postgres/db-sys.config';
 import { logger } from './server/middlewares/logs/logger';
 
 async function main() {
   try {
-    await DB_ADMIN.initialize()
-    await DB_CORE_CONFIG.initialize()
-    await DB_SYS_CONFIG.initialize()
+    config.init;
     app.listen(config.server.port);
     console.log("Server on port", config.server.port);
     logger.info('Servidor arriba');

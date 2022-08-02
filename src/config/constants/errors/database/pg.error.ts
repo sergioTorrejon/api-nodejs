@@ -1,4 +1,4 @@
-export const PS_EXCEPTIONS = {
+export const POSTGRES_ERRORS = {
   '00000': 'successful_completion',
   '01000': 'warning',
   '0100C': 'dynamic_result_sets_returned',

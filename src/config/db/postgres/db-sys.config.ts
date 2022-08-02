@@ -1,8 +1,5 @@
 import * as dotenv from 'dotenv';
-import {
-  DatabaseType,
-  DataSource,
-} from 'typeorm';
+import { DataSource } from 'typeorm';
 
 import {
   Config,
@@ -11,7 +8,6 @@ import { User } from '../../../core/modules/admin/schemas/user/entity/user';
 
 dotenv.config();
 
-const DATABASE_TYPE = process.env.DATABASE_TYPE || 'postgres' as DatabaseType;
 const DATABASE_HOST = process.env.DATABASE_HOST || 'localhost';
 const DATABASE_PORT = process.env.DATABASE_PORT || 5432;
 const DATABASE_USERNAME = process.env.DATABASE_USERNAME || 'admin';

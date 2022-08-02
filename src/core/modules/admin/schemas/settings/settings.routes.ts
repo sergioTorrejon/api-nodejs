@@ -1,13 +1,16 @@
 import { Router } from 'express';
 
 import {
+  validateCreate,
+} from '../../../../../server/middlewares/validators/validators';
+import {
   deleteOne,
   getAll,
   getOne,
   postOne,
   putOne,
 } from './settings.controller';
-import { valid } from './validators/settings.validator';
+import { validSettingsCreate } from './validators/settings.validator';
 
 const router = Router();
 
@@ -15,7 +18,7 @@ router.get("/", getAll);
 
 router.get("/:id", getOne);
 
-router.post("/",valid, postOne);
+router.post("/",validateCreate(validSettingsCreate), postOne);
 
 router.put("/:id", putOne);
 
