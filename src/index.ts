@@ -4,7 +4,7 @@ import { logger } from './server/middlewares/logs/logger';
 
 async function main() {
   try {
-    config.init;
+    //config.init;
     app.listen(config.server.port);
     console.log("Server on port", config.server.port);
     logger.info('Servidor arriba');

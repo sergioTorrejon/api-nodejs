@@ -695,3 +695,20 @@ CannotConnectAlreadyConnectedError: Cannot create a "default" connection because
 2022-08-02T07:42:48.512Z [undefined] info: db Admin
 2022-08-02T07:43:40.933Z [undefined] info: Servidor arriba
 2022-08-02T07:43:41.405Z [undefined] info: db Admin
+2022-08-03T04:41:44.036Z [undefined] info: Servidor arriba
+2022-08-03T04:41:44.560Z [undefined] info: db Admin
+2022-08-03T04:41:44.607Z [undefined] error: uncaughtException: Cannot create a "default" connection because connection to the database already established.
+CannotConnectAlreadyConnectedError: Cannot create a "default" connection because connection to the database already established.
+    at DataSource.initialize (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/data-source/DataSource.ts:229:19)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/config/config.ts:11:55
+    at Generator.next (<anonymous>)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/config/config.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/config/config.ts:4:12)
+    at dbCoreInit (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/config/config.ts:11:39)
+    at /Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/config/config.ts:17:21
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/sergiotorrejon/Documents/storrejon/dev-storrejon/nodejs/api-nodejs/src/config/config.ts:5:58)
+2022-08-03T04:44:01.880Z [undefined] info: Servidor arriba
+2022-08-03T04:45:40.241Z [undefined] info: Servidor arriba
+2022-08-03T07:37:54.671Z [undefined] info: Servidor arriba

@@ -8,7 +8,7 @@ export const settingsModel = {
     lastname :{
         name: 'lastname',
         type: 'string',
-        min: 0,
+        min: 5,
         max: 15
     }
 }

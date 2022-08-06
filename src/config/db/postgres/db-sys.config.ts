@@ -1,9 +1,6 @@
 import * as dotenv from 'dotenv';
 import { DataSource } from 'typeorm';
 
-import {
-  Config,
-} from '../../../core/modules/admin/schemas/config/entity/config.entity';
 import { User } from '../../../core/modules/admin/schemas/user/entity/user';
 
 dotenv.config();
@@ -23,5 +20,5 @@ export const DB_SYS_CONFIG = new DataSource({
     database: DATABASE_NAME,
     synchronize: true,
     //logging: true,
-    entities: [User,Config],
+    entities: [User],
   });
