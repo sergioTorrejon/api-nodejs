@@ -2,7 +2,7 @@ import { Router } from 'express';
 
 import {
   validateCreate,
-} from '../../../../../server/middlewares/validators/validators';
+} from '../../../../../shared/middlewares/validators/validators';
 import {
   deleteOne,
   getAll,

@@ -1,8 +1,8 @@
-import { DB_ADMIN } from '../../../../../config/db/postgres/db-admin.config';
-import { crudService } from '../../../../services/crud.service';
+import { DATABASE_CONFIG } from '../../../../../config/database/database.config';
+import { crudService } from '../../../../../shared/services/crud.service';
 
 const type = 'Setting'
-const repository = DB_ADMIN.getRepository(type)
+const repository = DATABASE_CONFIG.ADMIN.getRepository(type)
 
 const _getAll = async () => {
   return await crudService.getAll(repository);

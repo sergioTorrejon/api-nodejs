@@ -1,0 +1,12 @@
+{"date":"2022-08-17 03:39:02.243","level":"debug","label":"INICIANDO BASE DE DATOS ADMIN","msg":"db_admin OK"} 
+{"date":"2022-08-17 03:39:02.300","level":"debug","label":"INICIANDO BASE DE DATOS CORE","msg":"db_core OK"} 
+{"date":"2022-08-17 03:39:02.390","level":"debug","label":"INICIANDO BASE DE DATOS SYS","msg":"db_sys OK"} 
+{"date":"2022-08-17 03:39:02.394","level":"debug","label":"run","msg":"Server on port:  http://localhost:3005"} 
+{"date":"2022-08-17 03:41:20.239","level":"debug","label":"INICIANDO BASE DE DATOS ADMIN","msg":"db_admin OK"} 
+{"date":"2022-08-17 03:41:20.309","level":"debug","label":"INICIANDO BASE DE DATOS CORE","msg":"db_core OK"} 
+{"date":"2022-08-17 03:41:20.392","level":"debug","label":"INICIANDO BASE DE DATOS SYS","msg":"db_sys OK"} 
+{"date":"2022-08-17 03:41:20.395","level":"debug","label":"run","msg":"Server on port:  http://localhost:3005"} 
+{"date":"2022-08-17 03:47:08.483","level":"debug","label":"INICIANDO BASE DE DATOS ADMIN","msg":"db_admin OK"} 
+{"date":"2022-08-17 03:47:08.548","level":"debug","label":"INICIANDO BASE DE DATOS CORE","msg":"db_core OK"} 
+{"date":"2022-08-17 03:47:08.636","level":"debug","label":"INICIANDO BASE DE DATOS SYS","msg":"db_sys OK"} 
+{"date":"2022-08-17 03:47:08.639","level":"debug","label":"run","msg":"Server on port:  http://localhost:3005"} 

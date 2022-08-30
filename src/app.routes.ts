@@ -1,15 +1,13 @@
 import { Router } from 'express';
 
-import adminRoutes from './core/modules/admin/admin.routes';
-import userRoutes from './core/modules/admin/schemas/user/user.routes';
+import v1Routes from './routes/v1/v1.routes';
 import {
   notFoundHandler,
-} from './server/middlewares/validators/notfound_handler';
+} from './shared/middlewares/validators/notfound_handler';
 
 const router = Router();
 
-router.use("/admin", adminRoutes);
-router.use("/users", userRoutes);
+router.use("/v1", v1Routes);
 router.use('*', notFoundHandler)
 
 

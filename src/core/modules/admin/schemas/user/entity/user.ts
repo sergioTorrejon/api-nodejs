@@ -1,4 +1,3 @@
-import { IsNumber } from 'class-validator';
 import {
   BaseEntity,
   Column,
@@ -11,7 +10,6 @@ import {
 @Entity()
 export class User extends BaseEntity {
   @PrimaryGeneratedColumn({type:'int4'})
-  @IsNumber()
   id: number;
 
   @Column()

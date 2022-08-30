@@ -1,5 +1,3 @@
-import { IsInt } from 'class-validator';
-
 export class UserStructure { 
 
 /*     @IsString()
@@ -10,6 +8,5 @@ export class UserStructure {
         
  
     age: number; */ 
-    @IsInt()
     id:number;
  }
